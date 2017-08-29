@@ -80,13 +80,13 @@ public class TextEdit extends javax.swing.JFrame {
         jButton3.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton3);
 
-        desktopPane.add(jToolBar1, java.awt.BorderLayout.CENTER);
+        desktopPane.add(jToolBar1, java.awt.BorderLayout.NORTH);
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);
 
-        desktopPane.add(jScrollPane1, java.awt.BorderLayout.PAGE_START);
+        desktopPane.add(jScrollPane1, java.awt.BorderLayout.CENTER);
 
         fileMenu.setMnemonic('f');
         fileMenu.setText("File");
